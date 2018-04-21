@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">TesteRunRunIt</string>
+    <string name="retry">Try again</string>
+    <string name="seems_without_internet">Seems you\'re without internet connection</string>
+    <string name="hours_worked">Hours worked :</string>
+    <string name="hours_remaining">Hours remaining :</string>
+    <string name="project">Project:</string>
+    <string name="status">Status:</string>
+    <string name="task_type">Task type:</string>
+    <string name="init_date">Init date:</string>
+    <string name="delivery_date">Delivery date:</string>
+    <string name="responsible">Responsible</string>
+    <string name="start_work">Start work</string>
+    <string name="deliver">Deliver</string>
+    <string name="created_at">Created at </string>
+    <string name="by"> by</string>
+    <string name="working">Working</string>
+    <string name="loading_your_data">Loading your data…</string>
+    <string name="loading_your_task">Loading your task…</string>
+    <string name="task_delivered_with_success">Task delivered with success!</string>
+</resources>

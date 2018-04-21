@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">TesteRunRunIt</string>
+    <string name="retry">Tente Novamente</string>
+    <string name="seems_without_internet">Parece que você está sem conexão com a internet</string>
+    <string name="hours_worked">Horas trabalhadas:</string>
+    <string name="hours_remaining">Horas restantes:</string>
+    <string name="project">Projeto:</string>
+    <string name="status">Status:</string>
+    <string name="task_type">Tipo da tarefa:</string>
+    <string name="init_date">Data de início:</string>
+    <string name="delivery_date">Data de entrega:</string>
+    <string name="responsible">Responsável</string>
+    <string name="start_work">Trabalhar</string>
+    <string name="deliver">Entregar</string>
+    <string name="created_at">Criada em </string>
+    <string name="by"> por:</string>
+    <string name="working">Trabalhando</string>
+    <string name="loading_your_data">Carregando seus dados…</string>
+    <string name="loading_your_task">Carregando sua tarefa…</string>
+    <string name="task_delivered_with_success">Tarefa entregue com sucesso!</string>
+</resources>

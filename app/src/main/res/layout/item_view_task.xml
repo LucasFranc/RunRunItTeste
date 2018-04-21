@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="?attr/selectableItemBackground"
+    android:padding="@dimen/margin_pattern">
+
+    <include
+        android:id="@+id/task_priority"
+        layout="@layout/task_priority"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true" />
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/task_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Titulo da tarefa aqui"
+        android:textColor="@color/blue_select"
+        android:textSize="@dimen/title_size"
+        android:layout_toStartOf="@id/task_priority"
+        android:layout_marginEnd="@dimen/half_margin_pattern"
+        android:ellipsize="end"
+        android:textStyle="bold"/>
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/txt_estimated_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@id/task_title"
+        android:layout_marginTop="@dimen/half_margin_pattern"
+        android:layout_marginBottom="@dimen/half_margin_pattern"
+        android:text="19/03"/>
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/task_project_client"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/half_margin_pattern"
+        android:layout_marginBottom="@dimen/half_margin_pattern"
+        android:layout_toStartOf="@id/txt_estimated_date"
+        android:ellipsize="end"
+        android:layout_below="@id/task_title"
+        android:layout_marginEnd="@dimen/half_margin_pattern"
+        android:text="Cliente>Projeto"/>
+
+    <ProgressBar
+        android:id="@+id/task_progress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/task_project_client"
+        android:max="100"
+        android:progressTint="@color/blue_select"
+        style="@style/Widget.AppCompat.ProgressBar.Horizontal" />
+
+</RelativeLayout>
